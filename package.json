@@ -1,0 +1,30 @@
+{
+  "name": "api-compras",
+  "version": "1.0.0",
+  "description": "API para portifolio, afim de testar minhas habilidades e competencias no desenvolvimento de uma api para um site de comprar.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsat0/API-COMPRAS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafaelsat0/API-COMPRAS/issues"
+  },
+  "homepage": "https://github.com/rafaelsat0/API-COMPRAS#readme",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
